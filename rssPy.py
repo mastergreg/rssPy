@@ -4,7 +4,7 @@
 #* -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
 # File Name : rssPy.py
 # Creation Date : 26-03-2012
-# Last Modified : Mon 26 Mar 2012 11:16:18 AM EEST
+# Last Modified : Wed 28 Mar 2012 03:12:02 AM EEST
 # Created By : Greg Liras <gregliras@gmail.com>
 #_._._._._._._._._._._._._._._._._._._._._.*/
 from sys import argv
@@ -23,6 +23,7 @@ def main():
     titles = map(lambda s:sub(regexp, '',s),titles)
     for i in range(int(argv[2])):
         print titles[i]
+    return 0
     
 
 
